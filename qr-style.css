@@ -1,10 +1,11 @@
 body {
     background-color:  hsl(212, 45%, 89%);
-    
     font-family: 'Roboto', sans-serif;
-    margin: 100px;
-    height: auto;
+    min-height: 100vh;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .white-container {
@@ -28,19 +29,23 @@ img {
 p {
     font-size: 15px;
     line-height: .08;
-    color: lightgray;
+    color: grey;
     padding: 5px;
 }
 
-h2{
-    font-size: ;
+h1{
+    font-size: 30px;
     line-height: 0.5;
 }
 
 @media screen and (max-width: 643px){
     body {
-        margin: 100px auto;
-    
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     }
 }
 
